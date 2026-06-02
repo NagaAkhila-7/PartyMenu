@@ -40,3 +40,12 @@ body {
     transform: translateY(0);
   }
 }
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
